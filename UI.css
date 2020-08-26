@@ -1,0 +1,151 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+font-family: 'Baloo Tamma 2', cursive;
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+background-color: #319CFB;
+}
+
+.container header h1{
+color:white;
+height:70px;
+margin-top:0;
+}
+
+.container{
+width:100%;
+height:100%;
+padding:0 100px;
+}
+
+.container header{
+display:flex;
+height:70px;
+padding-top:20px;
+}
+
+.container header .nav-link ul li{
+display:inline;
+margin-left:100px;
+color:white;
+font-size:14px;
+}
+
+.container header .nav-link ul{
+margin-top:0;
+}
+
+.container header .nav-link{
+margin-left:auto;
+}
+
+.container header .nav-link ul li button{
+border-radius:5px;
+width:100px;
+height:30px;
+font-weight:600;
+border:none;
+}
+
+.container header .nav-link ul li button:hover{
+background-color:#F8CD3E;
+}
+
+.container header .yellow{
+color: #F8CD3E;
+}
+
+.container header .blue{
+color:blue;
+}
+
+.container header .red{
+color:red;
+}
+
+.containertwo .word-image{
+display:flex;
+}
+
+.containertwo{
+width:100%;
+padding:0 100px;
+margin:0;
+}
+
+.containertwo .word-image .word h1{
+color:white;
+font-weight: 500;
+font-size:120px;
+margin: 70px 0px 0px 0px;
+line-height: 120px;
+}
+
+.containertwo .word-image .image{
+margin-left:auto;
+}
+
+.containertwo .word-image .word button{
+background-color:#F8CD3E;
+border-radius:5px;
+width:180px;
+height:50px;
+font-weight:600;
+border:none;
+color:white;
+font-size:16px;
+margin-bottom:20px;
+}
+
+.containertwo .word-image .word button:hover{
+background-color:blue;
+}
+
+.containertwo .word-image .word .fast{
+font-weight:100;
+font-size:35px;
+color:white;
+font-family: 'Poppins', sans-serif;
+}
+
+.containertwo .word-image .word .store{
+color:white;
+font-weight:100;
+font-family: 'Poppins', sans-serif;
+}
+
+.containertwo .icon{
+display:flex;
+background-color:none;
+width:80px;
+}
+
+.containertwo .icon .icon1{
+background-color:black;
+width:30px;
+border-radius:3px;
+}
+
+.containertwo .icon .icon2{
+background-color:rgb(245,240,240);
+width:30px;
+border-radius:3px;
+margin-left:auto;
+}
+
+.containertwo .icon .icon1 .fab{
+color:white;
+margin:7px;
+justify-content:center;
+}
+
+.containertwo .icon .icon2 .fab{
+    color:black;
+    margin:7px;
+    justify-content:center;
+}
